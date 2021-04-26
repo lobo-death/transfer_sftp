@@ -1,6 +1,7 @@
 from functions import access_folder, get_filepath, read_folder, get_date_str
 import os
 
+
 data = get_date_str()
 filepath = get_filepath()
 files = read_folder(filepath)
